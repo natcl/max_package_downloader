@@ -100,6 +100,7 @@
 			}
 , 			{
 				"box" : 				{
+					"active" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
@@ -1658,13 +1659,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-56",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 411.0, 578.0, 18.0 ],
-									"text" : "unzip /nethome/nlecaude/Documents/Max/Packages/master.zip /nethome/nlecaude/Documents/Max/Packages"
+									"text" : "unzip /nethome/nlecaude/Documents/Max/Packages /nethome/nlecaude/Documents/Max/Packages"
 								}
 
 							}
@@ -2083,7 +2083,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-54",
-					"items" : [ "Max ToolBox", ",", "ejies" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2104,8 +2104,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 635.0, 230.0, 297.0, 18.0 ],
-					"text" : "read ~/Documents/Max/Packages/json_max_test.json"
+					"patching_rect" : [ 635.0, 230.0, 300.0, 18.0 ],
+					"text" : "read ~/Documents/Max/Packages/max_packages.json"
 				}
 
 			}
