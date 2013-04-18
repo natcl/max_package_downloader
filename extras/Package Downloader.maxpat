@@ -2137,8 +2137,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 220.0, 70.0, 654.0, 18.0 ],
-					"text" : "download https://gist.github.com/natcl/5413186/raw/3b38b49deb74adcca29ead000becb2c874847f4e/json_max_test.json"
+					"patching_rect" : [ 220.0, 70.0, 507.0, 18.0 ],
+					"text" : "download https://raw.github.com/natcl/max_package_downloader/master/max_packages.json"
 				}
 
 			}
