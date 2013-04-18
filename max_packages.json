@@ -1,0 +1,14 @@
+{
+  "Max ToolBox":
+  {
+    "version": "15",
+    "link": "https://github.com/natcl/maxtoolbox/archive/master.zip"
+  },
+ 
+  "ejies":
+  {
+    "version": "3.11",
+    "link": "https://github.com/emmanueljourdan/ejies/archive/master.zip"
+  }
+ 
+}
