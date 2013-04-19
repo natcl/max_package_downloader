@@ -32,6 +32,19 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1210.0, 541.0, 95.0, 20.0 ],
+					"text" : "s packagename"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -100,7 +113,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
@@ -1565,7 +1577,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ -885.0, 146.0, 838.0, 671.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1585,6 +1597,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 523.0, 205.0, 93.0, 20.0 ],
+									"text" : "r packagename"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -1663,8 +1689,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 411.0, 578.0, 18.0 ],
-									"text" : "unzip /nethome/nlecaude/Documents/Max/Packages /nethome/nlecaude/Documents/Max/Packages"
+									"patching_rect" : [ 50.0, 411.0, 678.0, 18.0 ],
+									"text" : "unzip /nethome/nlecaude/Documents/Max/Packages/master.zip /nethome/nlecaude/Documents/Max/Packages \"Max ToolBox\""
 								}
 
 							}
@@ -1674,11 +1700,11 @@
 									"fontsize" : 12.0,
 									"id" : "obj-52",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 341.0, 312.0, 115.0, 20.0 ],
-									"text" : "sprintf unzip %s %s"
+									"patching_rect" : [ 341.0, 312.0, 181.0, 20.0 ],
+									"text" : "sprintf unzip \\\"%s\\\" \\\"%s\\\" \\\"%s\\\""
 								}
 
 							}
@@ -1733,13 +1759,22 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 107.0, 580.0, 61.0, 20.0 ],
+									"patching_rect" : [ 108.0, 578.0, 61.0, 20.0 ],
 									"text" : "mxj unzip"
 								}
 
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 2 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
 									"disabled" : 0,
@@ -1762,7 +1797,7 @@
 									"destination" : [ "obj-52", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 350.5, 182.0, 502.0, 182.0, 502.0, 308.0, 446.5, 308.0 ],
+									"midpoints" : [ 350.5, 182.0, 502.0, 182.0, 502.0, 308.0, 431.5, 308.0 ],
 									"source" : [ "obj-36", 0 ]
 								}
 
@@ -2083,7 +2118,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-54",
-					"items" : "<empty>",
+					"items" : [ "Max ToolBox", ",", "ejies", ",", "Max Package Downloader" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2412,6 +2447,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 753.0, 398.0, 1219.5, 398.0 ],
+					"source" : [ "obj-54", 1 ]
 				}
 
 			}
