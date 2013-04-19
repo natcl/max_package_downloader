@@ -25,6 +25,13 @@
     "version": "1",
     "link": "https://github.com/robtherich/jit.gl.hap/archive/master.zip",
     "relative_path": "package"
+  },
+  
+  "TapTools":
+  {
+    "version": "4b2",
+    "link": "https://github.com/tap/TapTools/archive/master.zip",
+    "relative_path": "TapTools"
   }
  
 }
