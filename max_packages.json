@@ -9,6 +9,12 @@
   {
     "version": "3.11",
     "link": "https://github.com/emmanueljourdan/ejies/archive/master.zip"
+  },
+
+  "Max Package Downloader":
+  {
+    "version": "1",
+    "link": "https://github.com/natcl/max_package_downloader/archive/master.zip"
   }
  
 }
