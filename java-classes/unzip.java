@@ -11,18 +11,30 @@ import java.util.zip.ZipInputStream;
  
 public class unzip extends MaxObject {
         
-  public void unzip(String zipfile, String outputfolder, String packagename) {
+  public void unzip(String zipfile, String outputfolder, String packagename, String relativepath) {
     UnZip_main unZip = new UnZip_main();
     String rootFolder = unZip.unZipIt(zipfile, outputfolder);
+    File from = null;
     
     //rename package
-    File from = new File(outputfolder + File.separator + rootFolder);
+    if (relativepath == "None"){
+      from = new File(outputfolder + File.separator + rootFolder);}
+    else{
+      from = new File(outputfolder + File.separator + rootFolder + File.separator + relativepath);}
+    
     File to = new File(outputfolder + File.separator + packagename);
+    
     //if package was already there, delete it
     if (to.exists()){
       deleteFolder(to);
     }
     from.renameTo(to);
+
+    //if package was in subfolder, delete parent folder
+    if (relativepath != "None"){
+      File dir_to_delete = new File(outputfolder + File.separator + rootFolder);
+      deleteFolder(dir_to_delete);
+    }
 
     //delete zip file
     File to_delete = new File(zipfile);
@@ -119,6 +131,12 @@ class UnZip_main
    return rootFolder;  
    }  
 }
+
+
+
+
+
+
 
 
 
