@@ -39,7 +39,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 635.0, 222.0, 424.166687, 18.0 ],
-					"text" : "read Imodium:/Users/Nat/Documents/Max/Packages/max_packages.json"
+					"text" : "read /Users/Nat/Documents/Max/Packages/max_packages.json"
 				}
 
 			}
@@ -173,7 +173,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 176.0, 138.0, 152.0, 20.0 ],
-									"presentation_rect" : [ 176.0, 142.0, 0.0, 0.0 ],
 									"text" : "conformpath max absolute"
 								}
 
@@ -2152,13 +2151,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-56",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 411.0, 618.0, 31.0 ],
-									"text" : "unzip Imodium:/Users/Nat/Documents/Max/Packages/master.zip Imodium:/Users/Nat/Documents/Max/Packages jit.gl.hap package"
+									"text" : "unzip /Users/Nat/Documents/Max/Packages/ejies_3.11.zip /Users/Nat/Documents/Max/Packages ejies None"
 								}
 
 							}
@@ -2600,8 +2598,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 220.0, 100.0, 385.0, 20.0 ],
-					"text" : "jit.uldl @defaultdir ~/Documents/Max/Packages @percent 1 @report 1",
+					"patching_rect" : [ 220.0, 100.0, 164.0, 20.0 ],
+					"text" : "jit.uldl @percent 1 @report 1",
 					"varname" : "repo_uldl"
 				}
 
