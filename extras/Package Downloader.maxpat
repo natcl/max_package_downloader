@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -287,7 +287,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1633,11 +1633,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ -885.0, 146.0, 838.0, 671.0 ],
+						"rect" : [ 0.0, 146.0, 838.0, 671.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1764,8 +1764,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 411.0, 678.0, 31.0 ],
-									"text" : "unzip /nethome/nlecaude/Documents/Max/Packages/master.zip /nethome/nlecaude/Documents/Max/Packages \"Max ToolBox\" None"
+									"patching_rect" : [ 50.0, 411.0, 618.0, 31.0 ],
+									"text" : "unzip /Users/Nat/Documents/Max/Packages/master.zip /Users/Nat/Documents/Max/Packages \"Max ToolBox\" None"
 								}
 
 							}
@@ -1834,8 +1834,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 108.0, 578.0, 61.0, 20.0 ],
-									"text" : "mxj unzip"
+									"patching_rect" : [ 108.0, 577.0, 147.0, 20.0 ],
+									"text" : "mxj package_downloader"
 								}
 
 							}
@@ -2202,7 +2202,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-54",
-					"items" : [ "Max ToolBox", ",", "ejies", ",", "Max Package Downloader", ",", "jit.gl.hap" ],
+					"items" : [ "Max ToolBox", ",", "ejies", ",", "Max Package Downloader", ",", "jit.gl.hap", ",", "TapTools" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

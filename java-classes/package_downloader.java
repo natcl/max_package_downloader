@@ -9,18 +9,21 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
  
-public class unzip extends MaxObject {
+public class package_downloader extends MaxObject {
         
   public void unzip(String zipfile, String outputfolder, String packagename, String relativepath) {
-    UnZip_main unZip = new UnZip_main();
-    String rootFolder = unZip.unZipIt(zipfile, outputfolder);
+    String rootFolder = unZipIt(zipfile, outputfolder);
     File from = null;
     
     //rename package
-    if (relativepath == "None"){
-      from = new File(outputfolder + File.separator + rootFolder);}
-    else{
-      from = new File(outputfolder + File.separator + rootFolder + File.separator + relativepath);}
+    if (relativepath.equals("None"))
+    {
+      from = new File(outputfolder + File.separator + rootFolder);
+    }
+    else
+    {
+      from = new File(outputfolder + File.separator + rootFolder + File.separator + relativepath);
+    }
     
     File to = new File(outputfolder + File.separator + packagename);
     
@@ -31,7 +34,8 @@ public class unzip extends MaxObject {
     from.renameTo(to);
 
     //if package was in subfolder, delete parent folder
-    if (relativepath != "None"){
+    if (!relativepath.equals("None"))
+    {
       File dir_to_delete = new File(outputfolder + File.separator + rootFolder);
       deleteFolder(dir_to_delete);
     }
@@ -39,9 +43,6 @@ public class unzip extends MaxObject {
     //delete zip file
     File to_delete = new File(zipfile);
     to_delete.delete();
-
-
- 
   }
 
   public static void deleteFolder(File folder) {
@@ -57,16 +58,8 @@ public class unzip extends MaxObject {
     }
     folder.delete();
   }
-}
 
-class UnZip_main
-{
-    /**
-     * Unzip it
-     * @param zipFile input zip file
-     * @param output zip file output folder
-     */
-    public String unZipIt(String zipFile, String outputFolder){
+  public String unZipIt(String zipFile, String outputFolder){
  
      byte[] buffer = new byte[1024];
      String rootFolder = "None";
@@ -131,6 +124,8 @@ class UnZip_main
    return rootFolder;  
    }  
 }
+
+
 
 
 
