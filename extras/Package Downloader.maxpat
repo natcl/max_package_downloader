@@ -8,7 +8,8 @@
 			"architecture" : "x86"
 		}
 ,
-		"openrect" : [ 67.0, 67.0, 196.0, 145.0 ],
+		"openrect" : [ 78.0, 63.0, 190.0, 100.0 ],
+		"bgcolor" : [ 0.858922, 0.858896, 0.858911, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,6 +30,25 @@
 		"tags" : "",
 		"title" : "Package Downloader",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial Bold Italic",
+					"fontsize" : 16.233263,
+					"frgb" : 0.0,
+					"hint" : "Control a master clock and report time values",
+					"id" : "obj-108",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 784.0, 55.0, 87.0, 61.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.5, 6.0, 174.0, 25.0 ],
+					"text" : "Package Downloader",
+					"textcolor" : [ 0.388235, 0.388235, 0.388235, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -183,7 +203,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 675.0, 507.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.5, 72.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 10.5, 68.0, 100.0, 20.0 ],
+					"rounded" : 0.0,
 					"text" : "Download"
 				}
 
@@ -199,7 +220,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 47.0, 235.0, 18.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.5, 104.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 5.5, 88.0, 18.0, 18.0 ],
 					"prototypename" : "Arial9"
 				}
 
@@ -216,7 +237,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 36.0, 210.0, 41.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.5, 103.0, 41.0, 21.0 ],
+					"presentation_rect" : [ 24.5, 87.0, 41.0, 21.0 ],
 					"text" : "View",
 					"textcolor" : [ 1.0, 0.501961, 0.0, 1.0 ]
 				}
@@ -233,7 +254,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 84.0, 235.0, 18.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.5, 104.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 73.5, 88.0, 18.0, 18.0 ],
 					"prototypename" : "Arial9"
 				}
 
@@ -250,7 +271,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 73.0, 210.0, 56.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 101.5, 103.0, 58.0, 21.0 ],
+					"presentation_rect" : [ 92.5, 87.0, 58.0, 21.0 ],
 					"text" : "NoFloat",
 					"textcolor" : [ 1.0, 0.501961, 0.0, 1.0 ]
 				}
@@ -267,7 +288,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 47.0, 281.0, 62.0, 18.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 67, 67, 264, 213, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 432, 65, 629, 178, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -291,7 +312,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 670.0, 44.0, 657.0, 488.0 ],
+						"rect" : [ 623.0, 44.0, 657.0, 488.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -838,7 +859,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 283.0, 147.0, 77.0, 16.0 ],
-									"text" : "67 67 264 213"
+									"text" : "67 67 264 180"
 								}
 
 							}
@@ -1566,22 +1587,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 564.5, 372.0, 114.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 12.5, 19.0, 114.0, 20.0 ],
-					"text" : "Available packages"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2198,24 +2203,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-54",
-					"items" : [ "Max ToolBox", ",", "ejies", ",", "Max Package Downloader", ",", "jit.gl.hap", ",", "TapTools" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 678.0, 372.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 12.5, 45.0, 150.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-53",
@@ -2291,6 +2278,25 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-54",
+					"items" : [ "ejies", ",", "jit.gl.hap", ",", "Max Package Downloader", ",", "Max ToolBox", ",", "TapTools" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 678.0, 372.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 9.5, 41.0, 174.0, 20.0 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-13",
 					"maxclass" : "multislider",
@@ -2301,7 +2307,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 959.166687, 667.0, 122.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.166687, 45.0, 126.0, 20.0 ],
+					"presentation_rect" : [ 10.5, 41.0, 151.666687, 20.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.842391, 0.693795, 0.276098, 0.34 ]
