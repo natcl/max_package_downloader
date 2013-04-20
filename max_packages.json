@@ -1,22 +1,8 @@
 {
-  "Max ToolBox":
-  {
-    "version": "15",
-    "link": "https://github.com/natcl/maxtoolbox/archive/master.zip",
-    "relative_path": "None"
-  },
- 
   "ejies":
   {
     "version": "3.11",
     "link": "https://github.com/emmanueljourdan/ejies/archive/master.zip",
-    "relative_path": "None"
-  },
-
-  "Max Package Downloader":
-  {
-    "version": "1",
-    "link": "https://github.com/natcl/max_package_downloader/archive/master.zip",
     "relative_path": "None"
   },
 
@@ -25,6 +11,20 @@
     "version": "1",
     "link": "https://github.com/robtherich/jit.gl.hap/archive/master.zip",
     "relative_path": "package"
+  },
+  
+  "Max Package Downloader":
+  {
+    "version": "1",
+    "link": "https://github.com/natcl/max_package_downloader/archive/master.zip",
+    "relative_path": "None"
+  },
+  
+  "Max ToolBox":
+  {
+    "version": "15",
+    "link": "https://github.com/natcl/maxtoolbox/archive/master.zip",
+    "relative_path": "None"
   },
   
   "TapTools":
