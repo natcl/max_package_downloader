@@ -1,0 +1,40 @@
+{
+  "ejies":
+  {
+    "link": "http://www.e--j.com/dl/ejies_3.11.zip",
+    "relative_path": "None"
+  },
+
+  "jit.gl.hap":
+  {
+    "link_mac32": "https://github.com/robtherich/jit.gl.hap/archive/master.zip",
+    "relative_path": "package"
+  },
+  
+  "Max Package Downloader":
+  {
+    "link": "https://github.com/natcl/max_package_downloader/archive/master.zip",
+    "relative_path": "None"
+  },
+  
+  "Max ToolBox":
+  {
+    "link": "https://github.com/natcl/maxtoolbox/archive/master.zip",
+    "relative_path": "None"
+  },
+  
+  "TapTools":
+  {
+    "link": "https://github.com/tap/TapTools/archive/master.zip",
+    "relative_path": "TapTools"
+  },
+
+  "Zsa.descriptors":
+  {
+    "link_mac": "http://www.e--j.com/dl/zsa.descriptors_1.0_nc_mac.zip",
+    "link_win32": "http://www.e--j.com/dl/zsa.descriptors_1.0_nc_win32.zip",
+    "link_win64": "http://www.e--j.com/dl/zsa.descriptors_1.0_nc_win64.zip",
+    "relative_path": "None"
+  }
+ 
+}
