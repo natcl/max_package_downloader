@@ -42,7 +42,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 784.0, 55.0, 87.0, 61.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.5, 6.0, 174.0, 25.0 ],
+					"presentation_rect" : [ 9.5, 6.0, 174.0, 25.0 ],
 					"text" : "Package Downloader",
 					"textcolor" : [ 0.388235, 0.388235, 0.388235, 1.0 ]
 				}
@@ -1764,13 +1764,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-56",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 411.0, 618.0, 31.0 ],
-									"text" : "unzip /Users/Nat/Documents/Max/Packages/master.zip /Users/Nat/Documents/Max/Packages \"Max ToolBox\" None"
+									"text" : "unzip /Users/Nat/Documents/Max/Packages/master.zip /Users/Nat/Documents/Max/Packages ejies None"
 								}
 
 							}
