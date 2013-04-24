@@ -32,6 +32,13 @@
     "enabled": "true",
     "link": "https://github.com/tap/TapTools/archive/master.zip",
     "relative_path": "TapTools"
+  },
+
+  "uci":
+  {
+    "enabled": "true",
+    "link": "http://www.expr-i0.net/uci.zip",
+    "relative_path": "None"
   }
  
 }
