@@ -28,7 +28,7 @@ public class package_downloader extends MaxObject {
     File to = new File(outputfolder + File.separator + packagename);
     
     //if package was already there, delete it
-    if (!rootFolder.substring(0,rootFolder.length()-1).equals(packagename))
+    if (!rootFolder.equals(packagename + File.separator))
     {
         if (to.exists())
         {
@@ -129,6 +129,8 @@ public class package_downloader extends MaxObject {
    return rootFolder;  
    }  
 }
+
+
 
 
 
