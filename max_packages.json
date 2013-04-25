@@ -23,7 +23,7 @@
   "Max Package Downloader":
   {
     "enabled": "true",
-    "link": "https://github.com/natcl/max_package_downloader/archive/master.zip",
+    "link": "https://github.com/natcl/max_package_downloader/archive/1.zip",
     "relative_path": "None"
   },
   
