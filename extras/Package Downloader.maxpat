@@ -707,7 +707,7 @@
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 16.233263,
 					"frgb" : 0.0,
-					"hint" : "Control a master clock and report time values",
+					"hint" : "",
 					"id" : "obj-108",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -2259,7 +2259,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 411.0, 698.0, 18.0 ],
-									"text" : "unzip /nethome/nlecaude/Documents/Max/Packages/master.zip /nethome/nlecaude/Documents/Max/Packages jit.gl.hap package"
+									"text" : "unzip /nethome/nlecaude/Documents/Max/Packages/ejies_3.11.zip /nethome/nlecaude/Documents/Max/Packages ejies None"
 								}
 
 							}
@@ -2643,7 +2643,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-54",
-					"items" : [ "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools" ],
+					"items" : [ "ejies", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "uci", ",", "zsa.descriptors" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2673,7 +2673,7 @@
 					"presentation_rect" : [ 10.5, 41.0, 151.666687, 20.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"slidercolor" : [ 0.842391, 0.693795, 0.276098, 0.34 ]
+					"slidercolor" : [ 0.787203, 0.794324, 0.815686, 0.62 ]
 				}
 
 			}
@@ -3110,8 +3110,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "menu_filterer.js",
-				"bootpath" : "/nethome/nlecaude/Documents/Max/Packages/max_package_downloader/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "/nethome/nlecaude/Documents/Max/Packages/Max Package Downloader/javascript",
+				"patcherrelativepath" : "../../../Documents/Max/Packages/Max Package Downloader/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
