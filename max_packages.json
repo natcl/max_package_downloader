@@ -1,11 +1,18 @@
 {
   "ejies":
   {
-    "enabled": "false",
-    "link": "http://www.e--j.com/dl/ejies_3.11.zip",
+    "enabled": "true",
+    "link": "http://download.e--j.com/software/ejies_3.11.zip",
     "relative_path": "None"
   },
 
+  "zsa.descriptors":
+  {
+    "enabled": "true",
+    "link": "http://download.e--j.com/software/zsa.descriptors_1.0_nc_mac.zip",
+    "relative_path": "None"
+  },
+  
   "jit.gl.hap":
   {
     "enabled": "true",
