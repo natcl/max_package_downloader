@@ -1,0 +1,15 @@
+{
+	"name": "Max Package Downloader",
+	"type": "package",
+	"author": "Nathanaël Lécaudé",
+	"description": "The Max Package Downloader allows you to download and keep Max packages up to date.",
+	"version": "1",
+	"major_version": "1",
+	"minor_version": "0",
+	"min_max_version": "612",
+	"website": "https://github.com/natcl/max_package_downloader",
+	"link_mac32": "https://github.com/natcl/max_package_downloader/archive/1.zip",
+	"link_mac64": "https://github.com/natcl/max_package_downloader/archive/1.zip",
+	"link_win32": "https://github.com/natcl/max_package_downloader/archive/1.zip",
+	"link_win64": "https://github.com/natcl/max_package_downloader/archive/1.zip"
+}
