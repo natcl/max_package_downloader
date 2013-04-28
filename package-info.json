@@ -7,6 +7,8 @@
 	"major_version": "1",
 	"minor_version": "0",
 	"min_max_version": "612",
+	"min_osx_version": "None",
+	"min_win_version": "None",
 	"website": "https://github.com/natcl/max_package_downloader",
 	"link_mac32": "https://github.com/natcl/max_package_downloader/archive/1.zip",
 	"link_mac64": "https://github.com/natcl/max_package_downloader/archive/1.zip",
