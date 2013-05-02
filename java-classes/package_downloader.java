@@ -1,5 +1,6 @@
 import com.cycling74.max.*;
 import java.io.*;
+import java.net.*;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -9,7 +10,7 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
  
-public class package_downloader extends MaxObject {
+public class package_downloader extends MaxObject{
         
   public void unzip(String zipfile, String outputfolder, String packagename, String relativepath) {
     String rootFolder = unZipIt(zipfile, outputfolder);
@@ -128,7 +129,41 @@ public class package_downloader extends MaxObject {
     }
    return rootFolder;  
    }  
+
+  public void url_to_symbol(String url)
+  {
+    outlet(0,getTextFromURL(url));
+  }
+  
+  public static String getTextFromURL(String url)
+  {
+    try
+    { 
+      URL website = new URL(url);
+      URLConnection connection = website.openConnection();
+      BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+      StringBuilder response = new StringBuilder();
+      String inputLine;
+
+      while ((inputLine = in.readLine()) != null) 
+        response.append(inputLine);
+
+      in.close();
+
+      return response.toString();
+    } 
+    catch(Exception e)
+    {
+      return "error: " + e.getMessage();
+    }
+
+  }
 }
+
+
+
+
+
 
 
 
