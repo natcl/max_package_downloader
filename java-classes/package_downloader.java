@@ -1,18 +1,28 @@
 import com.cycling74.max.*;
-import java.io.*;
-import java.net.*;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.io.BufferedReader;
+
 import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
+
+import java.net.URL;
+import java.nio.charset.Charset;
+
+import org.json.JSONException;
+import org.json.JSONObject;
  
-public class package_downloader extends MaxObject{
-        
-  public void unzip(String zipfile, String outputfolder, String packagename, String relativepath) {
+public class package_downloader extends MaxObject
+{     
+  public void unzip(String zipfile, String outputfolder, String packagename, String relativepath) 
+  {
     String rootFolder = unZipIt(zipfile, outputfolder);
     File from = null;
     
@@ -51,7 +61,8 @@ public class package_downloader extends MaxObject{
     to_delete.delete();
   }
 
-  public static void deleteFolder(File folder) {
+  public static void deleteFolder(File folder) 
+  {
     File[] files = folder.listFiles();
     if(files!=null) { //some JVMs return null for empty dirs
         for(File f: files) {
@@ -65,7 +76,8 @@ public class package_downloader extends MaxObject{
     folder.delete();
   }
 
-  public String unZipIt(String zipFile, String outputFolder){
+  public String unZipIt(String zipFile, String outputFolder)
+  {
  
      byte[] buffer = new byte[1024];
      String rootFolder = "None";
@@ -128,37 +140,75 @@ public class package_downloader extends MaxObject{
        ex.printStackTrace(); 
     }
    return rootFolder;  
-   }  
+  }  
 
-  public void url_to_symbol(String url)
+  public void json_test(String url) throws IOException, JSONException
   {
-    outlet(0,getTextFromURL(url));
+    JSONObject json = readJsonFromUrl(url);
+    System.out.println(json.toString());
+    System.out.println(json.getJSONObject("Max Package Downloader").get("link"));
+    System.out.println(MaxSystem.getMaxVersionInts()[0]); 
+    System.out.println(System.getProperty("os.version"));
   }
   
-  public static String getTextFromURL(String url)
+  private static String readAll(Reader rd) throws IOException 
   {
-    try
-    { 
-      URL website = new URL(url);
-      URLConnection connection = website.openConnection();
-      BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
-      StringBuilder response = new StringBuilder();
-      String inputLine;
-
-      while ((inputLine = in.readLine()) != null) 
-        response.append(inputLine);
-
-      in.close();
-
-      return response.toString();
-    } 
-    catch(Exception e)
+    StringBuilder sb = new StringBuilder();
+    int cp;
+    while ((cp = rd.read()) != -1) 
     {
-      return "error: " + e.getMessage();
+      sb.append((char) cp);
     }
+    return sb.toString();
+  }
 
+  private static JSONObject readJsonFromUrl(String url) throws IOException, JSONException 
+  {
+    InputStream is = new URL(url).openStream();
+    try 
+    {
+      BufferedReader rd = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
+      String jsonText = readAll(rd);
+      JSONObject json = new JSONObject(jsonText);
+      return json;
+    } 
+    finally 
+    {
+      is.close();
+    }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
