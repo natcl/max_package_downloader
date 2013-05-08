@@ -6,7 +6,7 @@ The Max Package Downloader is a tool I wrote following a [discussion](http://cyc
 
 ## Installation
 
-To install the Max Package Downloader, [download](https://github.com/natcl/max_package_downloader/archive/master.zip) the repository's zip file and unzip it into your `~/Documents/Max/Packages` folder. Restart Max and you should have a Package Downloader item in the extras menu.  Important: Make sure you have `Documents/Max/Packages` folder in your home directory.
+To install the Max Package Downloader, [download](https://github.com/natcl/max_package_downloader/archive/1.zip) the latest tagged version and unzip it into your `~/Documents/Max/Packages` folder. Restart Max and you should have a Package Downloader item in the extras menu.  Important: Make sure you have `Documents/Max/Packages` folder in your home directory.  You can also clone this repository, although I don't recommended it as it might be unstable at some times.  Once the Package Downloader is installed you should also be able to updated it from within itself.
 
 ## Usage
 
