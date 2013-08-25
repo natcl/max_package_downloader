@@ -53,6 +53,13 @@
     "enabled": "true",
     "link": "https://github.com/imi/IMI-Max-patches-for-Max6/archive/master.zip",
     "relative_path": "IMIpatches"
+  },
+  
+  "BEAP":
+  {
+    "enabled": "true",
+    "link": "https://github.com/stretta/BEAP/archive/master.zip",
+    "relative_path": "None"
   }
  
 }
