@@ -61,5 +61,12 @@
     "link": "https://github.com/stretta/BEAP/archive/master.zip",
     "relative_path": "None"
   }
+
+  "HoaLibrary":
+  {
+    "enabled": "true",
+    "link": "https://github.com/CICM/HoaLibrary/archive/master.zip",
+    "relative_path": "_distribution/Max"
+  },
  
 }
