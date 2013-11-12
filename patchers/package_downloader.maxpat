@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 199.0, 134.0, 1087.0, 560.0 ],
+		"rect" : [ 199.0, 134.0, 617.0, 560.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,6 +31,44 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 305.0, 30.0, 85.0, 20.0 ],
+					"text" : "r mpd_refresh"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 25.0, 114.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 25.0, 147.0, 87.0, 20.0 ],
+					"text" : "s mpd_refresh"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -44,7 +82,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -64,6 +102,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 69.0, 85.0, 20.0 ],
+									"text" : "r mpd_refresh"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -140,6 +192,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -408,7 +469,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 25.0, 43.0, 170.0, 20.0 ],
+					"patching_rect" : [ 25.0, 38.0, 170.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -435,7 +496,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 302.0, 12.0, 60.0, 20.0 ],
+					"patching_rect" : [ 305.0, 61.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -450,7 +511,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 516.0, 488.0, 327.0, 31.0 ],
+					"patching_rect" : [ 77.0, 461.0, 327.0, 31.0 ],
 					"text" : "\"The Max Package Downloader allows you to download and keep Max packages up to date.\""
 				}
 
@@ -464,7 +525,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 842.0, 433.0, 106.0, 20.0 ],
+					"patching_rect" : [ 403.0, 406.0, 106.0, 20.0 ],
 					"text" : "r mpd_description"
 				}
 
@@ -478,7 +539,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 186.0, 59.0, 20.0 ],
+					"patching_rect" : [ 393.0, 235.0, 59.0, 20.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -492,7 +553,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 842.0, 403.0, 88.0, 20.0 ],
+					"patching_rect" : [ 403.0, 376.0, 88.0, 20.0 ],
 					"text" : "r mpd_link_zip"
 				}
 
@@ -507,7 +568,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 516.0, 448.0, 306.0, 31.0 ],
+					"patching_rect" : [ 77.0, 421.0, 306.0, 31.0 ],
 					"text" : "https://github.com/natcl/max_package_downloader/archive/1.zip"
 				}
 
@@ -521,7 +582,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 214.0, 103.0, 20.0 ],
+					"patching_rect" : [ 393.0, 263.0, 103.0, 20.0 ],
 					"text" : "prepend package"
 				}
 
@@ -535,7 +596,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 243.0, 148.0, 20.0 ],
+					"patching_rect" : [ 393.0, 292.0, 148.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "package_downloader.js",
 						"parameter_enable" : 0
@@ -555,7 +616,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 516.0, 403.0, 306.0, 31.0 ],
+					"patching_rect" : [ 77.0, 376.0, 306.0, 31.0 ],
 					"text" : "https://raw.github.com/natcl/max_package_downloader/master/package-info.json"
 				}
 
@@ -569,7 +630,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 842.0, 375.0, 95.0, 20.0 ],
+					"patching_rect" : [ 403.0, 348.0, 95.0, 20.0 ],
 					"text" : "r mpd_link_json"
 				}
 
@@ -746,7 +807,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
-									"items" : [ "ejies", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "uci", ",", "IMI", "Max", "patches", ",", "BEAP", ",", "zsa.descriptors", ",", "HoaLibrary" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -879,7 +940,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 25.0, 76.0, 119.0, 20.0 ],
+					"patching_rect" : [ 25.0, 63.0, 119.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -906,7 +967,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 302.0, 95.0, 73.0, 20.0 ],
+					"patching_rect" : [ 305.0, 144.0, 73.0, 20.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -920,7 +981,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 302.0, 125.0, 78.0, 20.0 ],
+					"patching_rect" : [ 305.0, 174.0, 78.0, 20.0 ],
 					"text" : "route umenu"
 				}
 
@@ -936,7 +997,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 302.0, 158.0, 195.0, 20.0 ]
+					"patching_rect" : [ 305.0, 207.0, 195.0, 20.0 ]
 				}
 
 			}
@@ -949,7 +1010,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 302.0, 39.0, 57.0, 18.0 ],
+					"patching_rect" : [ 305.0, 88.0, 57.0, 18.0 ],
 					"text" : "populate"
 				}
 
@@ -963,7 +1024,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 302.0, 65.0, 148.0, 20.0 ],
+					"patching_rect" : [ 305.0, 114.0, 148.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "package_downloader.js",
 						"parameter_enable" : 0
@@ -1070,6 +1131,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
