@@ -65,7 +65,7 @@
   "HoaLibrary":
   {
     "enabled": "true",
-    "link": "https://github.com/CICM/HoaLibrary/blob/master/_distribution/Max/package-info.json",
+    "link": "https://raw.github.com/CICM/HoaLibrary/master/_distribution/Max/package-info.json",
     "relative_path": "None"
   } 
 }
