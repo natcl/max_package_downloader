@@ -65,7 +65,7 @@
   "HoaLibrary":
   {
     "enabled": "true",
-    "link": "https://github.com/CICM/HoaLibrary/releases/download/1.3.1/HoaLibrary_Max_1.3.1.zip",
+    "link": "https://github.com/CICM/HoaLibrary/blob/master/_distribution/Max/package-info.json",
     "relative_path": "None"
   } 
 }
