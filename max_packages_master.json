@@ -67,5 +67,12 @@
     "enabled": "true",
     "link": "https://raw.github.com/CICM/HoaLibrary/master/_distribution/Max/package-info.json",
     "relative_path": "None"
+  },
+  
+  "Test Package":
+  {
+    "enabled": "true",
+    "link": "https://raw.github.com/natcl/max_package_downloader/master/package-info-test.json",
+    "relative_path": "None"
   } 
 }

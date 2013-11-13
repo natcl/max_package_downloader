@@ -31,22 +31,32 @@ function populate()
 function package(package_name)
 {
 	var filetype = mpd_global.max_packages_master.get(package_name + '::' + 'link').split('.').pop();
-	
-	messnamed('mpd_package_name', package_name);
-	
+		
 	if (filetype == "json")
 		messnamed('mpd_link_json', mpd_global.max_packages_master.get(package_name + '::' + 'link'));
 	if (filetype == "zip"){
+		clear_extra();
+		messnamed('mpd_package_name', package_name);
 		messnamed('mpd_link_zip', mpd_global.max_packages_master.get(package_name + '::' + 'link'));
-		messnamed('mpd_description', "None");
+		messnamed('mpd_relative_path', mpd_global.max_packages_master.get(package_name + '::' + 'relative_path'));
 	}
-	
-	messnamed('mpd_relative_path', mpd_global.max_packages_master.get(package_name + '::' + 'relative_path'));
-
 }
 
 function package_info()
 {
+	messnamed('mpd_package_name', mpd_global.max_package_info.get("name"));
+	messnamed('mpd_author', mpd_global.max_package_info.get("author"));
 	messnamed('mpd_description', mpd_global.max_package_info.get("description"));
 	messnamed('mpd_link_zip', mpd_global.max_package_info.get("link_" + platform));
+	messnamed('mpd_relative_path', mpd_global.max_package_info.get("relative_path"));
+	messnamed('mpd_version', mpd_global.max_package_info.get("version"));
+	messnamed('mpd_website', mpd_global.max_package_info.get("website"));
+}
+
+function clear_extra()
+{
+	messnamed('mpd_description', "None");
+	messnamed('mpd_author', "None");
+	messnamed('mpd_version', "None");
+	messnamed('mpd_website', "None");
 }
