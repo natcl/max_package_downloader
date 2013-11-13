@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 81.0, 81.0, 1082.0, 436.0 ],
+		"rect" : [ 78.0, 60.0, 1082.0, 436.0 ],
 		"bgcolor" : [ 0.886275, 0.886275, 0.886275, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -33,13 +33,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-52",
-					"linecount" : 13,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 900.0, 405.0, 50.0, 179.0 ],
-					"text" : ";\rmax launchbrowser https://github.com/natcl/max_package_downloader"
+					"patching_rect" : [ 900.0, 405.0, 50.0, 72.0 ],
+					"text" : ";\rmax launchbrowser None"
 				}
 
 			}
@@ -125,7 +125,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1017.0, 266.0, 74.0, 20.0 ],
-					"presentation_rect" : [ 1018.0, 270.0, 0.0, 0.0 ],
 					"text" : "prepend set"
 				}
 
@@ -140,10 +139,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1017.0, 297.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1017.0, 297.0, 36.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 364.0, 585.0, 20.0 ],
-					"text" : "https://github.com/natcl/max_package_downloader"
+					"text" : "None"
 				}
 
 			}
@@ -215,7 +214,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 309.0, 125.0, 20.0 ],
+					"patching_rect" : [ 32.0, 303.5, 125.0, 20.0 ],
 					"text" : "package_downloader"
 				}
 
@@ -611,7 +610,7 @@
 					"patching_rect" : [ 845.0, 297.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 311.0, 585.0, 20.0 ],
-					"text" : "1"
+					"text" : "None"
 				}
 
 			}
@@ -672,7 +671,7 @@
 					"patching_rect" : [ 658.0, 297.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 258.0, 585.0, 20.0 ],
-					"text" : "1"
+					"text" : "None"
 				}
 
 			}
@@ -733,7 +732,7 @@
 					"patching_rect" : [ 490.0, 297.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 209.0, 585.0, 20.0 ],
-					"text" : "Nathanaël Lécaudé"
+					"text" : "None"
 				}
 
 			}
@@ -872,10 +871,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.0, 297.0, 152.0, 60.0 ],
+					"patching_rect" : [ 309.0, 297.0, 20.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 156.0, 585.0, 20.0 ],
-					"text" : "The Max Package Downloader allows you to download and keep Max packages up to date."
+					"text" : "None"
 				}
 
 			}
@@ -966,7 +965,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor" : [ 0.941176, 0.941176, 0.941176, 0.2 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",

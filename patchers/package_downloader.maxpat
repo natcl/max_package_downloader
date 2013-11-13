@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 52.0, 104.0, 707.0, 510.0 ],
+		"rect" : [ 14.0, 49.0, 707.0, 510.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -197,8 +197,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 176.5, 178.0, 390.0, 31.0 ],
-									"text" : "/Users/Nat/Documents/Max/Packages/BEAP/package-info.json"
+									"patching_rect" : [ 176.5, 178.0, 390.0, 18.0 ],
+									"text" : "/Users/Nat/Documents/Max/Packages/ejies/package-info.json"
 								}
 
 							}
@@ -508,7 +508,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 351.0, 300.0, 18.0 ],
-									"text" : "None"
+									"text" : "\"3.14\""
 								}
 
 							}
@@ -536,7 +536,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 318.0, 300.0, 18.0 ],
-									"text" : "None"
+									"text" : "\"3.14\""
 								}
 
 							}
@@ -621,7 +621,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 245.0, 300.0, 18.0 ],
-									"text" : "None"
+									"text" : "http://www.e--j.com/index.php/what-is-ejies/"
 								}
 
 							}
@@ -644,12 +644,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-24",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 206.0, 300.0, 18.0 ],
-									"text" : "None"
+									"text" : "\"ejies is a collection of abstractions utilities, digital signal processing, JavaScripts and Java tools.\""
 								}
 
 							}
@@ -691,7 +692,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 167.0, 300.0, 18.0 ],
-									"text" : "https://github.com/stretta/BEAP/archive/master.zip"
+									"text" : "http://download.e--j.com/software/ejies_3.14.zip"
 								}
 
 							}
@@ -706,7 +707,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 128.0, 300.0, 31.0 ],
-									"text" : "https://raw.github.com/robtherich/jit.gl.hap/master/package/package-info.json"
+									"text" : "https://raw.github.com/emmanueljourdan/ejies/master/package-info.json"
 								}
 
 							}
@@ -1228,7 +1229,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 505.0, 91.0, 838.0, 671.0 ],
+						"rect" : [ 528.0, 58.0, 838.0, 671.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1369,7 +1370,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 411.0, 698.0, 18.0 ],
-									"text" : "unzip /Users/Nat/Documents/Max/Packages /Users/Nat/Documents/Max/Packages BEAP None"
+									"text" : "unzip /Users/Nat/Documents/Max/Packages/ejies_3.14.zip /Users/Nat/Documents/Max/Packages ejies None"
 								}
 
 							}
@@ -1491,15 +1492,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 350.5, 182.0, 502.0, 182.0, 502.0, 308.0, 416.166656, 308.0 ],
-									"source" : [ "obj-36", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-52", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-36", 0 ]
 								}
 
@@ -1719,20 +1711,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-12",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 6.0, 85.0, 20.0 ],
-									"text" : "r mpd_refresh"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-11",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -1894,15 +1872,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-12", 0 ]
 								}
 
 							}
@@ -2216,7 +2185,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 18.0, 16.0, 85.0, 20.0 ],
+									"patching_rect" : [ 81.0, 47.0, 85.0, 20.0 ],
 									"text" : "r mpd_refresh"
 								}
 
@@ -2364,7 +2333,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
+									"destination" : [ "obj-15", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-9", 0 ]
@@ -2874,7 +2843,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-16",
-					"items" : [ "BEAP", ",", "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "Test", "Package", ",", "uci", ",", "zsa.descriptors" ],
+					"items" : [ "BEAP", ",", "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "uci", ",", "zsa.descriptors" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2924,7 +2893,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "package_downloader.js",
-				"bootpath" : "/Users/Nat/Source/max_package_downloader/javascript",
+				"bootpath" : "/Users/Nat/Documents/Max/Packages/Max Package Downloader/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
