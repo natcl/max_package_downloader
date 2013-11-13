@@ -8,10 +8,10 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 364.0, 44.0, 1002.0, 510.0 ],
+		"rect" : [ 81.0, 81.0, 1082.0, 436.0 ],
 		"bgcolor" : [ 0.886275, 0.886275, 0.886275, 1.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -29,6 +29,185 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-52",
+					"linecount" : 13,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 900.0, 405.0, 50.0, 179.0 ],
+					"text" : ";\rmax launchbrowser https://github.com/natcl/max_package_downloader"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 929.0, 377.0, 177.0, 20.0 ],
+					"text" : "sprintf \\; max launchbrowser %s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.160198,
+					"hidden" : 1,
+					"id" : "obj-47",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 750.0, 63.0, 370.0, 25.0 ],
+					"text" : ";\rmax launchbrowser http://support.e--j.com"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"handoff" : "",
+					"id" : "obj-44",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"patching_rect" : [ 965.5, 343.0, 204.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 17.0, 366.0, 582.0, 16.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-43",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 14.0, 334.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 14.0, 331.0, 13.0, 13.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1017.0, 244.0, 89.0, 20.0 ],
+					"text" : "r mpd_website"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1017.0, 266.0, 74.0, 20.0 ],
+					"presentation_rect" : [ 1018.0, 270.0, 0.0, 0.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-41",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1017.0, 297.0, 150.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 14.0, 364.0, 585.0, 20.0 ],
+					"text" : "https://github.com/natcl/max_package_downloader"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-42",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1017.0, 211.0, 101.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 14.0, 344.0, 102.0, 20.0 ],
+					"text" : "Website"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 536.5, 14.0, 56.0, 20.0 ],
+					"text" : "onecopy"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 638.0, 168.0, 87.0, 20.0 ],
+					"text" : "s mpd_refresh"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 638.0, 142.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 125.0, 104.0, 100.0, 20.0 ],
+					"text" : "Refresh"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -360,7 +539,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 165.0, 377.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 286.0, 13.0, 13.0 ]
+					"presentation_rect" : [ 14.0, 278.0, 13.0, 13.0 ]
 				}
 
 			}
@@ -374,7 +553,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 196.0, 377.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 237.0, 13.0, 13.0 ]
+					"presentation_rect" : [ 14.0, 229.0, 13.0, 13.0 ]
 				}
 
 			}
@@ -388,7 +567,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 128.0, 377.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 184.0, 13.0, 13.0 ]
+					"presentation_rect" : [ 14.0, 176.0, 13.0, 13.0 ]
 				}
 
 			}
@@ -431,8 +610,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 845.0, 297.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 319.0, 585.0, 20.0 ],
-					"text" : "None"
+					"presentation_rect" : [ 14.0, 311.0, 585.0, 20.0 ],
+					"text" : "1"
 				}
 
 			}
@@ -448,7 +627,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 845.0, 211.0, 101.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 299.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 291.0, 102.0, 20.0 ],
 					"text" : "Local version"
 				}
 
@@ -492,8 +671,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 658.0, 297.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 266.0, 585.0, 20.0 ],
-					"text" : "None"
+					"presentation_rect" : [ 14.0, 258.0, 585.0, 20.0 ],
+					"text" : "1"
 				}
 
 			}
@@ -509,7 +688,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 658.0, 211.0, 101.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 246.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 238.0, 102.0, 20.0 ],
 					"text" : "Remote version"
 				}
 
@@ -553,8 +732,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 490.0, 297.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 217.0, 585.0, 20.0 ],
-					"text" : "None"
+					"presentation_rect" : [ 14.0, 209.0, 585.0, 20.0 ],
+					"text" : "Nathanaël Lécaudé"
 				}
 
 			}
@@ -570,7 +749,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 490.0, 211.0, 64.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 197.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 189.0, 102.0, 20.0 ],
 					"text" : "Author(s)"
 				}
 
@@ -587,7 +766,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 309.0, 213.0, 77.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 144.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 136.0, 102.0, 20.0 ],
 					"text" : "Description"
 				}
 
@@ -604,7 +783,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 120.0, 83.0, 158.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 59.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 51.0, 102.0, 20.0 ],
 					"text" : "Select package:"
 				}
 
@@ -621,7 +800,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.0, 28.0, 369.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 18.304966, 303.0, 33.0 ],
+					"presentation_rect" : [ 14.0, 10.304966, 303.0, 33.0 ],
 					"text" : "Max Package Downloader",
 					"textcolor" : [ 0.388235, 0.388235, 0.388235, 1.0 ]
 				}
@@ -689,13 +868,14 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-14",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.0, 297.0, 150.0, 20.0 ],
+					"patching_rect" : [ 309.0, 297.0, 152.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 164.0, 585.0, 20.0 ],
-					"text" : "None"
+					"presentation_rect" : [ 14.0, 156.0, 585.0, 20.0 ],
+					"text" : "The Max Package Downloader allows you to download and keep Max packages up to date."
 				}
 
 			}
@@ -752,7 +932,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 411.0, 114.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 112.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 17.0, 104.0, 100.0, 20.0 ],
 					"text" : "Download"
 				}
 
@@ -790,7 +970,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
-					"items" : [ "BEAP", ",", "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "Test", "Package", ",", "uci", ",", "zsa.descriptors" ],
+					"items" : [ "BEAP", ",", "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "uci", ",", "zsa.descriptors" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -798,7 +978,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 32.0, 113.0, 195.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 83.0, 195.0, 20.0 ],
+					"presentation_rect" : [ 17.0, 75.0, 208.0, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -808,6 +988,7 @@
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-13",
+					"ignoreclick" : 1,
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -816,7 +997,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 32.0, 262.0, 108.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 83.0, 174.0, 21.0 ],
+					"presentation_rect" : [ 17.0, 75.0, 186.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "multislider",
@@ -963,6 +1144,51 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -972,7 +1198,25 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-52", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-50", 0 ]
@@ -1000,6 +1244,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-54", 0 ]
@@ -1058,14 +1311,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "package_downloader.maxpat",
-				"bootpath" : "/Users/Nat/Source/max_package_downloader/patchers",
+				"bootpath" : "/Users/Nat/Documents/Max/Packages/Max Package Downloader/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "package_downloader.js",
-				"bootpath" : "/Users/Nat/Source/max_package_downloader/javascript",
+				"bootpath" : "/Users/Nat/Documents/Max/Packages/Max Package Downloader/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1

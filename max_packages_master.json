@@ -44,7 +44,7 @@
   "IMI Max patches":
   {
     "enabled": "true",
-    "link": "https://github.com/imi/IMI-Max-patches-for-Max6/archive/master.zip",
+    "link": "https://raw.github.com/imi/IMI-Max-patches-for-Max6/master/IMIpatches/package-info.json",
     "relative_path": "IMIpatches"
   },
 
