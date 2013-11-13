@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 110.0, 141.0, 707.0, 510.0 ],
+		"rect" : [ 52.0, 104.0, 707.0, 510.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -706,7 +706,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 128.0, 300.0, 31.0 ],
-									"text" : "https://raw.github.com/emmanueljourdan/ejies/master/package-info.json"
+									"text" : "https://raw.github.com/robtherich/jit.gl.hap/master/package/package-info.json"
 								}
 
 							}
@@ -1369,7 +1369,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 411.0, 698.0, 18.0 ],
-									"text" : "unzip /Users/Nat/Documents/Max/Packages/master.zip /Users/Nat/Documents/Max/Packages BEAP None"
+									"text" : "unzip /Users/Nat/Documents/Max/Packages /Users/Nat/Documents/Max/Packages BEAP None"
 								}
 
 							}
@@ -2874,7 +2874,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-16",
-					"items" : [ "BEAP", ",", "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "uci", ",", "zsa.descriptors" ],
+					"items" : [ "BEAP", ",", "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "Test", "Package", ",", "uci", ",", "zsa.descriptors" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
