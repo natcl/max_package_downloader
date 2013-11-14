@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 78.0, 60.0, 1082.0, 436.0 ],
+		"rect" : [ 78.0, 60.0, 362.0, 431.0 ],
 		"bgcolor" : [ 0.886275, 0.886275, 0.886275, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -83,21 +83,7 @@
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"patching_rect" : [ 965.5, 343.0, 204.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 366.0, 582.0, 16.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"hidden" : 1,
-					"id" : "obj-43",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 14.0, 334.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 331.0, 13.0, 13.0 ]
+					"presentation_rect" : [ 17.0, 379.0, 300.0, 16.0 ]
 				}
 
 			}
@@ -141,7 +127,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1017.0, 297.0, 36.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 364.0, 585.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 377.0, 303.0, 20.0 ],
 					"text" : "None"
 				}
 
@@ -158,7 +144,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1017.0, 211.0, 101.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 344.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 357.0, 102.0, 20.0 ],
 					"text" : "Website"
 				}
 
@@ -531,34 +517,6 @@
 , 			{
 				"box" : 				{
 					"hidden" : 1,
-					"id" : "obj-36",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 165.0, 377.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 278.0, 13.0, 13.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"hidden" : 1,
-					"id" : "obj-35",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 196.0, 377.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 229.0, 13.0, 13.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-34",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -566,7 +524,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 128.0, 377.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 176.0, 13.0, 13.0 ]
+					"presentation_rect" : [ 14.0, 189.0, 13.0, 13.0 ]
 				}
 
 			}
@@ -609,7 +567,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 845.0, 297.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 311.0, 585.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 324.0, 303.0, 20.0 ],
 					"text" : "None"
 				}
 
@@ -626,7 +584,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 845.0, 211.0, 101.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 291.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 304.0, 102.0, 20.0 ],
 					"text" : "Local version"
 				}
 
@@ -670,7 +628,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 658.0, 297.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 258.0, 585.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 271.0, 303.0, 20.0 ],
 					"text" : "None"
 				}
 
@@ -687,7 +645,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 658.0, 211.0, 101.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 238.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 251.0, 102.0, 20.0 ],
 					"text" : "Remote version"
 				}
 
@@ -731,7 +689,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 490.0, 297.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 209.0, 585.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 222.0, 303.0, 20.0 ],
 					"text" : "None"
 				}
 
@@ -748,7 +706,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 490.0, 211.0, 64.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 189.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 202.0, 102.0, 20.0 ],
 					"text" : "Author(s)"
 				}
 
@@ -873,7 +831,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 309.0, 297.0, 20.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 156.0, 585.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 156.0, 303.0, 20.0 ],
 					"text" : "None"
 				}
 
