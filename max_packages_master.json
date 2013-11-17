@@ -68,6 +68,13 @@
     "link": "https://raw.github.com/CICM/HoaLibrary/master/_distribution/Max/package-info.json",
     "relative_path": "None"
   },
+
+  "imp.dmx":
+  {
+    "enabled": "true",
+    "link": "http://www.theimpersonalstereo.com/downloads/impdmx/package-info.json",
+    "relative_path": "None"
+  },
   
   "Test Package":
   {
