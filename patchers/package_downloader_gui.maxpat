@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -38,8 +38,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 900.0, 405.0, 50.0, 72.0 ],
-					"text" : ";\rmax launchbrowser None"
+					"patching_rect" : [ 900.0, 405.0, 104.0, 72.0 ],
+					"text" : ";\rmax launchbrowser https://github.com/stretta/BEAP/wiki"
 				}
 
 			}
@@ -125,10 +125,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1017.0, 297.0, 36.0, 33.0 ],
+					"patching_rect" : [ 1017.0, 297.0, 104.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 377.0, 303.0, 20.0 ],
-					"text" : "None"
+					"text" : "https://github.com/stretta/BEAP/wiki"
 				}
 
 			}
@@ -289,7 +289,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -629,7 +629,7 @@
 					"patching_rect" : [ 658.0, 297.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 271.0, 303.0, 20.0 ],
-					"text" : "None"
+					"text" : "Master from GitHub"
 				}
 
 			}
@@ -687,10 +687,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 490.0, 297.0, 150.0, 20.0 ],
+					"patching_rect" : [ 490.0, 297.0, 202.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 222.0, 303.0, 20.0 ],
-					"text" : "None"
+					"text" : "Matthew Davidson, Peter McCulloch"
 				}
 
 			}
@@ -829,10 +829,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.0, 297.0, 20.0, 60.0 ],
+					"patching_rect" : [ 309.0, 297.0, 130.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 156.0, 303.0, 20.0 ],
-					"text" : "None"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 14.0, 156.0, 303.0, 33.0 ],
+					"text" : "BEAP (Berklee Electro Acoustic Pedagogy) Modular is a synthesis pedagogical tool."
 				}
 
 			}
@@ -927,7 +928,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
-					"items" : [ "BEAP", ",", "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "uci", ",", "zsa.descriptors" ],
+					"items" : [ "BEAP", ",", "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "imp.dmx", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "uci", ",", "zsa.descriptors" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
