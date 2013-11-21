@@ -39,7 +39,8 @@ For the system to work in an optimal way, you can create a `package-info.json` f
 	"link_mac64": "Link for the mac64 version of the zip, enter None between quotes if not relevant",
 	"link_win32": "Link for the win32 version of the zip, enter None between quotes if not relevant",
 	"link_win64": "Link for the win64 version of the zip, enter None between quotes if not relevant",
-	"relative_path": "Path if your package is not at the root of the zip file"
+	"relative_path": "Path if your package is not at the root of the zip file",
+	"alert_text": "Text to be displayed by an alert box after installation, set to None if nothing to show"
 }
 ```
 Real world example: 
@@ -61,7 +62,8 @@ Real world example:
 	"link_mac64": "https://github.com/natcl/max_package_downloader/archive/1.zip",
 	"link_win32": "https://github.com/natcl/max_package_downloader/archive/1.zip",
 	"link_win64": "https://github.com/natcl/max_package_downloader/archive/1.zip",
-	"relative_path": "None"
+	"relative_path": "None",
+	"alert_text": "Please restart Max to finish installation."
 }
 ```
 
