@@ -17,7 +17,7 @@ mpd_global.max_package_info = new Dict("mpd_package_info");
 
 function populate()
 {
-	keys = mpd_global.max_packages_master .getkeys();
+	keys = mpd_global.max_packages_master.getkeys();
 	keys.sort(function(a, b) {if (a.toLowerCase() < b.toLowerCase()) return -1; if (a.toLowerCase() > b.toLowerCase()) return 1; return 0;});
 	outlet(0, "umenu clear");
 	for (package in keys){

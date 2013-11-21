@@ -508,7 +508,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 351.0, 300.0, 18.0 ],
-									"text" : "\"3.14\""
+									"text" : "None"
 								}
 
 							}
@@ -587,13 +587,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 89.0, 300.0, 31.0 ],
-									"text" : "https://raw.github.com/natcl/TapTools/master/TapTools/package-info.json"
+									"patching_rect" : [ 50.0, 89.0, 300.0, 18.0 ],
+									"text" : "ejies"
 								}
 
 							}
@@ -606,8 +605,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 366.0, 89.0, 103.0, 20.0 ],
-									"text" : "r mpd_link_name"
+									"patching_rect" : [ 366.0, 89.0, 130.0, 20.0 ],
+									"text" : "r mpd_package_name"
 								}
 
 							}
@@ -644,12 +643,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-24",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 206.0, 300.0, 18.0 ],
+									"patching_rect" : [ 50.0, 206.0, 526.0, 18.0 ],
 									"text" : "\"ejies is a collection of abstractions utilities, digital signal processing, JavaScripts and Java tools.\""
 								}
 
@@ -687,11 +685,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-4",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 167.0, 300.0, 18.0 ],
+									"patching_rect" : [ 50.0, 167.0, 260.0, 31.0 ],
 									"text" : "http://download.e--j.com/software/ejies_3.14.zip"
 								}
 
@@ -2843,7 +2842,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-16",
-					"items" : [ "BEAP", ",", "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "uci", ",", "zsa.descriptors" ],
+					"items" : [ "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "imp.dmx", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "uci", ",", "zsa.descriptors" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
