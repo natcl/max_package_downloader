@@ -66,7 +66,7 @@
 	}
 ,
 	"Test Package" : 	{
-		"enabled" : "true",
+		"enabled" : "false",
 		"link" : "https://raw.github.com/natcl/max_test_package/master/package-info.json",
 		"relative_path" : "None"
 	}

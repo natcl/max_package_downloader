@@ -32,6 +32,142 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-61",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 651.5, 114.0, 63.0, 20.0 ],
+					"text" : "delay 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-62",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 170.0, 396.0, 32.5, 18.0 ],
+					"text" : "set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 651.5, 88.0, 110.0, 20.0 ],
+					"text" : "r mpd_unzip_done"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 589.0, 251.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-60",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 787.0, 262.0, 80.0, 20.0 ],
+					"text" : "s mpd_menu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-59",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 787.0, 233.0, 96.0, 20.0 ],
+					"text" : "prepend symbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-58",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 787.0, 192.0, 200.0, 18.0 ],
+					"text" : "\"Test Package\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 849.0, 105.0, 130.0, 20.0 ],
+					"text" : "r mpd_package_name"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-46",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 818.0, 140.0, 277.0, 18.0 ],
+					"text" : "ejies"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "bang" ],
+					"patching_rect" : [ 638.0, 168.0, 46.0, 20.0 ],
+					"text" : "t b b b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-57",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -121,7 +257,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 900.0, 405.0, 116.0, 72.0 ],
+					"patching_rect" : [ 904.0, 492.0, 116.0, 72.0 ],
 					"text" : ";\rmax launchbrowser http://www.e--j.com/index.php/what-is-ejies/"
 				}
 
@@ -135,7 +271,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 929.0, 377.0, 177.0, 20.0 ],
+					"patching_rect" : [ 933.0, 464.0, 177.0, 20.0 ],
 					"text" : "sprintf \\; max launchbrowser %s"
 				}
 
@@ -148,7 +284,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 965.5, 343.0, 204.0, 16.0 ],
+					"patching_rect" : [ 969.5, 430.0, 204.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 379.0, 300.0, 16.0 ]
 				}
@@ -163,7 +299,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1017.0, 244.0, 89.0, 20.0 ],
+					"patching_rect" : [ 1021.0, 331.0, 89.0, 20.0 ],
 					"text" : "r mpd_website"
 				}
 
@@ -177,7 +313,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1017.0, 266.0, 74.0, 20.0 ],
+					"patching_rect" : [ 1021.0, 353.0, 74.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -188,11 +324,10 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-41",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1017.0, 297.0, 126.0, 33.0 ],
+					"patching_rect" : [ 1021.0, 384.0, 240.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 377.0, 303.0, 20.0 ],
 					"text" : "http://www.e--j.com/index.php/what-is-ejies/"
@@ -209,7 +344,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1017.0, 211.0, 101.0, 20.0 ],
+					"patching_rect" : [ 1021.0, 298.0, 101.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 357.0, 102.0, 20.0 ],
 					"text" : "Website"
@@ -237,7 +372,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 638.0, 168.0, 87.0, 20.0 ],
+					"patching_rect" : [ 651.5, 213.0, 87.0, 20.0 ],
 					"text" : "s mpd_refresh"
 				}
 
@@ -604,7 +739,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 845.0, 244.0, 118.0, 20.0 ],
+					"patching_rect" : [ 849.0, 331.0, 118.0, 20.0 ],
 					"text" : "r mpd_local_version"
 				}
 
@@ -618,7 +753,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 845.0, 266.0, 74.0, 20.0 ],
+					"patching_rect" : [ 849.0, 353.0, 74.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -632,7 +767,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 845.0, 297.0, 150.0, 20.0 ],
+					"patching_rect" : [ 849.0, 384.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 324.0, 303.0, 20.0 ],
 					"text" : "None"
@@ -649,7 +784,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 845.0, 211.0, 101.0, 20.0 ],
+					"patching_rect" : [ 849.0, 298.0, 101.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 304.0, 102.0, 20.0 ],
 					"text" : "Local version"
@@ -665,7 +800,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 658.0, 244.0, 87.0, 20.0 ],
+					"patching_rect" : [ 662.0, 331.0, 87.0, 20.0 ],
 					"text" : "r mpd_version"
 				}
 
@@ -679,7 +814,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 658.0, 266.0, 74.0, 20.0 ],
+					"patching_rect" : [ 662.0, 353.0, 74.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -693,7 +828,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 658.0, 297.0, 150.0, 20.0 ],
+					"patching_rect" : [ 662.0, 384.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 271.0, 303.0, 20.0 ],
 					"text" : "3.14"
@@ -710,7 +845,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 658.0, 211.0, 101.0, 20.0 ],
+					"patching_rect" : [ 662.0, 298.0, 101.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 251.0, 102.0, 20.0 ],
 					"text" : "Remote version"
@@ -726,7 +861,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 233.0, 82.0, 20.0 ],
+					"patching_rect" : [ 494.0, 320.0, 82.0, 20.0 ],
 					"text" : "r mpd_author"
 				}
 
@@ -740,7 +875,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 266.0, 74.0, 20.0 ],
+					"patching_rect" : [ 494.0, 353.0, 74.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -754,7 +889,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 490.0, 297.0, 202.0, 20.0 ],
+					"patching_rect" : [ 494.0, 384.0, 202.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 222.0, 303.0, 20.0 ],
 					"text" : "Emmanuel Jourdan"
@@ -771,7 +906,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 490.0, 211.0, 64.0, 20.0 ],
+					"patching_rect" : [ 494.0, 298.0, 64.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 202.0, 102.0, 20.0 ],
 					"text" : "Author(s)"
@@ -788,7 +923,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.0, 213.0, 77.0, 20.0 ],
+					"patching_rect" : [ 313.0, 300.0, 77.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 136.0, 102.0, 20.0 ],
 					"text" : "Description"
@@ -867,7 +1002,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 309.0, 233.0, 106.0, 20.0 ],
+					"patching_rect" : [ 313.0, 320.0, 106.0, 20.0 ],
 					"text" : "r mpd_description"
 				}
 
@@ -881,7 +1016,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 309.0, 266.0, 74.0, 20.0 ],
+					"patching_rect" : [ 313.0, 353.0, 74.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -892,14 +1027,14 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-14",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.0, 297.0, 156.0, 60.0 ],
+					"patching_rect" : [ 313.0, 384.0, 516.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 14.0, 156.0, 306.0, 33.0 ],
+					"presentation_rect" : [ 14.0, 156.0, 308.0, 33.0 ],
 					"text" : "ejies is a collection of abstractions utilities, digital signal processing, JavaScripts and Java tools."
 				}
 
@@ -1115,6 +1250,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1178,6 +1322,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-35", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-35", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1214,7 +1385,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
+					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
@@ -1227,6 +1398,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 0 ]
 				}
 
 			}
@@ -1245,6 +1425,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-47", 0 ]
 				}
 
 			}
@@ -1349,10 +1547,82 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-62", 0 ]
 				}
 
 			}

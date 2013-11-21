@@ -125,6 +125,7 @@ public class package_downloader extends MaxObject
         zis.close();
  
         System.out.println("Done");
+        outlet(0,"bang");
 
     }catch(IOException ex){
        ex.printStackTrace(); 

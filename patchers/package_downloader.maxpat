@@ -316,13 +316,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-9",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 176.5, 178.0, 390.0, 18.0 ],
-									"text" : "\"/Users/Nat/Documents/Max/Packages/Test Package/package-info.json\""
+									"text" : "/Users/Nat/Documents/Max/Packages/ejies/package-info.json"
 								}
 
 							}
@@ -660,7 +659,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 318.0, 300.0, 18.0 ],
-									"text" : "\"1\""
+									"text" : "\"3.14\""
 								}
 
 							}
@@ -716,7 +715,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 89.0, 300.0, 18.0 ],
-									"text" : "\"Test Package\""
+									"text" : "ejies"
 								}
 
 							}
@@ -744,7 +743,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 245.0, 300.0, 18.0 ],
-									"text" : "https://github.com/natcl/max_package_downloader"
+									"text" : "http://www.e--j.com/index.php/what-is-ejies/"
 								}
 
 							}
@@ -772,7 +771,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 206.0, 526.0, 18.0 ],
-									"text" : "\"This is a Test Package\""
+									"text" : "\"ejies is a collection of abstractions utilities, digital signal processing, JavaScripts and Java tools.\""
 								}
 
 							}
@@ -809,12 +808,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-4",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 167.0, 260.0, 31.0 ],
-									"text" : "None"
+									"text" : "http://download.e--j.com/software/ejies_3.14.zip"
 								}
 
 							}
@@ -829,7 +829,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 128.0, 300.0, 31.0 ],
-									"text" : "https://raw.github.com/natcl/max_package_downloader/master/package-info-test.json"
+									"text" : "https://raw.github.com/emmanueljourdan/ejies/master/package-info.json"
 								}
 
 							}
@@ -1374,6 +1374,19 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 521.0, 112.0, 20.0 ],
+									"text" : "s mpd_unzip_done"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -1435,7 +1448,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 365.0, 77.0, 20.0 ],
+									"patching_rect" : [ 50.0, 372.0, 77.0, 20.0 ],
 									"text" : "r mpd_unzip"
 								}
 
@@ -1492,7 +1505,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 411.0, 698.0, 18.0 ],
-									"text" : "unzip /Users/Nat/Documents/Max/Packages/None /Users/Nat/Documents/Max/Packages \"Test Package\" None"
+									"text" : "unzip /Users/Nat/Documents/Max/Packages/ejies_3.14.zip /Users/Nat/Documents/Max/Packages ejies None"
 								}
 
 							}
@@ -1569,6 +1582,15 @@
 									"hidden" : 0,
 									"midpoints" : [ 529.5, 189.0 ],
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
 								}
 
 							}
