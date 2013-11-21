@@ -24,44 +24,44 @@ For the system to work in an optimal way, you can create a `package-info.json` f
 
 ```json
 {
-  "name": "The name of your package (this will also be the folder name)",
-  "type": "Type of package, might extend this later to support projects and live devices, enter package between quotes for now",
-  "author": "The author of the package",
-  "description": "The description of the package",
-  "version": "The version that will be displayed",
-  "major_version": "The major version number (ie 2 if your version is 2.11)",
-  "minor_version": "The minor version number (ie 11 if your version is 2.11)",
-  "min_max_version": "Minimum Max version, Max 6.1.2 would be 612 between quotes",
-  "min_osx_version": "Minimum osx version, for 10.6.7 you would enter 67 between quotes",
-  "min_win_version": "Minimum windows version, need to check what Max reports",
-  "website": "URL to a website where your package homepage lives",
-  "link_mac32": "Link for the mac32 version of the zip, enter None between quotes if not relevant",
-  "link_mac64": "Link for the mac64 version of the zip, enter None between quotes if not relevant",
-  "link_win32": "Link for the win32 version of the zip, enter None between quotes if not relevant",
-  "link_win64": "Link for the win64 version of the zip, enter None between quotes if not relevant",
-  "relative_path": "Path if your package is not at the root of the zip file"
+	"name": "The name of your package (this will also be the folder name)",
+	"type": "Type of package, might extend this later to support projects and live devices, enter package between quotes for now",
+	"author": "The author of the package",
+	"description": "The description of the package",
+	"version": "The version that will be displayed",
+	"major_version": "The major version number (ie 2 if your version is 2.11)",
+	"minor_version": "The minor version number (ie 11 if your version is 2.11)",
+	"min_max_version": "Minimum Max version, Max 6.1.2 would be 612 between quotes",
+	"min_osx_version": "Minimum osx version, for 10.6.7 you would enter 67 between quotes",
+	"min_win_version": "Minimum windows version, need to check what Max reports",
+	"website": "URL to a website where your package homepage lives",
+	"link_mac32": "Link for the mac32 version of the zip, enter None between quotes if not relevant",
+	"link_mac64": "Link for the mac64 version of the zip, enter None between quotes if not relevant",
+	"link_win32": "Link for the win32 version of the zip, enter None between quotes if not relevant",
+	"link_win64": "Link for the win64 version of the zip, enter None between quotes if not relevant",
+	"relative_path": "Path if your package is not at the root of the zip file"
 }
 ```
 Real world example: 
 
 ```json
 {
-  "name": "Max Package Downloader",
-  "type": "package",
-  "author": "Nathanaël Lécaudé",
-  "description": "The Max Package Downloader allows you to download and keep Max packages up to date.",
-  "version": "1",
-  "major_version": "1",
-  "minor_version": "0",
-  "min_max_version": "612",
-  "min_osx_version": "None",
-  "min_win_version": "None",
-  "website": "https://github.com/natcl/max_package_downloader",
-  "link_mac32": "https://github.com/natcl/max_package_downloader/archive/1.zip",
-  "link_mac64": "https://github.com/natcl/max_package_downloader/archive/1.zip",
-  "link_win32": "https://github.com/natcl/max_package_downloader/archive/1.zip",
-  "link_win64": "https://github.com/natcl/max_package_downloader/archive/1.zip",
-  "relative_path": "None"
+	"name": "Max Package Downloader",
+	"type": "package",
+	"author": "Nathanaël Lécaudé",
+	"description": "The Max Package Downloader allows you to download and keep Max packages up to date.",
+	"version": "1",
+	"major_version": "1",
+	"minor_version": "0",
+	"min_max_version": "612",
+	"min_osx_version": "None",
+	"min_win_version": "None",
+	"website": "https://github.com/natcl/max_package_downloader",
+	"link_mac32": "https://github.com/natcl/max_package_downloader/archive/1.zip",
+	"link_mac64": "https://github.com/natcl/max_package_downloader/archive/1.zip",
+	"link_win32": "https://github.com/natcl/max_package_downloader/archive/1.zip",
+	"link_win64": "https://github.com/natcl/max_package_downloader/archive/1.zip",
+	"relative_path": "None"
 }
 ```
 
