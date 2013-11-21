@@ -50,7 +50,7 @@
 
   "BEAP":
   {
-    "enabled": "true",
+    "enabled": "false",
     "link": "https://raw.github.com/stretta/BEAP/master/package-info.json",
     "relative_path": "None"
   },
