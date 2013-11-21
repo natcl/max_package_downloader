@@ -92,7 +92,7 @@ public class package_downloader extends MaxObject
            String fileName = ze.getName();
            File newFile = new File(outputFolder + File.separator + fileName);
  
-           System.out.println("file unzip : "+ newFile.getAbsoluteFile());
+           //System.out.println("file unzip : "+ newFile.getAbsoluteFile());
  
             //create all non exists folders
             //else you will hit FileNotFoundException for compressed folder
@@ -124,7 +124,7 @@ public class package_downloader extends MaxObject
         zis.closeEntry();
         zis.close();
  
-        System.out.println("Done");
+        System.out.println("Unzipped " + zipFile + " package to " + outputFolder);
         outlet(0,"bang");
 
     }catch(IOException ex){
