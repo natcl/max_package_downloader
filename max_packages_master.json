@@ -78,7 +78,7 @@
   
   "Test Package":
   {
-    "enabled": "false",
+    "enabled": "true",
     "link": "https://raw.github.com/natcl/max_package_downloader/master/package-info-test.json",
     "relative_path": "None"
   } 
