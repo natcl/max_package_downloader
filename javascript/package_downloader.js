@@ -59,4 +59,17 @@ function clear_extra()
 	messnamed('mpd_author', "None");
 	messnamed('mpd_version', "None");
 	messnamed('mpd_website', "None");
+	messnamed('mpd_alert_text', "None");
+}
+
+function open_alert()
+{
+	if (mpd_global.max_package_info.get("alert_text"))
+	{
+		if (mpd_global.max_package_info.get("alert_text") != "None")
+		{
+			messnamed('mpd_alert_text', mpd_global.max_package_info.get("alert_text"));
+			messnamed('mpd_open_alert', "bang");
+		}
+	}
 }
