@@ -32,26 +32,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-58",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 500.0, 519.0, 99.0, 20.0 ],
-					"text" : "s mpd_alert_text"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-57",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 66.0, 493.0, 39.0, 18.0 ],
-					"presentation_rect" : [ 69.0, 493.0, 0.0, 0.0 ],
 					"text" : "close"
 				}
 
@@ -67,30 +53,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 133.5, 447.0, 106.0, 20.0 ],
 					"text" : "r mpd_close_alert"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-49",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 278.0, 431.0, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-43",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 278.0, 465.0, 107.0, 20.0 ],
-					"text" : "s mpd_open_alert"
 				}
 
 			}
@@ -159,7 +121,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 900.0, 405.0, 114.0, 72.0 ],
+					"patching_rect" : [ 900.0, 405.0, 116.0, 72.0 ],
 					"text" : ";\rmax launchbrowser http://www.e--j.com/index.php/what-is-ejies/"
 				}
 
@@ -175,22 +137,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 929.0, 377.0, 177.0, 20.0 ],
 					"text" : "sprintf \\; max launchbrowser %s"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.160198,
-					"hidden" : 1,
-					"id" : "obj-47",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 750.0, 63.0, 370.0, 25.0 ],
-					"text" : ";\rmax launchbrowser http://support.e--j.com"
 				}
 
 			}
@@ -1049,7 +995,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
-					"items" : [ "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "imp.dmx", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "uci", ",", "zsa.descriptors" ],
+					"items" : [ "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "imp.dmx", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "Test", "Package", ",", "uci", ",", "zsa.descriptors" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1308,15 +1254,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-49", 0 ]
 				}
 
 			}

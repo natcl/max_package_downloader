@@ -10,7 +10,7 @@
 	"min_osx_version": "None",
 	"min_win_version": "None",
 	"website": "https://github.com/natcl/max_package_downloader",
-	"link_mac32": "None",
+	"link_mac32": "http://test.zip",
 	"link_mac64": "None",
 	"link_win32": "None",
 	"link_win64": "None",

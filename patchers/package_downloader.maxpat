@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 14.0, 49.0, 707.0, 510.0 ],
+		"rect" : [ 29.0, 181.0, 707.0, 510.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,129 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 5,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 201.0, 80.0, 249.0, 160.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 30.0, 51.0, 67.0, 18.0 ],
+									"text" : "open_alert"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 30.0, 75.0, 148.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"filename" : "package_downloader.js",
+										"parameter_enable" : 0
+									}
+,
+									"text" : "js package_downloader.js"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 30.0, 23.0, 77.0, 20.0 ],
+									"text" : "r mpd_unzip"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 25.0, 229.0, 44.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p alert"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -193,12 +316,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-9",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 176.5, 178.0, 390.0, 18.0 ],
-									"text" : "/Users/Nat/Documents/Max/Packages/ejies/package-info.json"
+									"text" : "\"/Users/Nat/Documents/Max/Packages/Test Package/package-info.json\""
 								}
 
 							}
@@ -444,7 +568,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 25.0, 202.428574, 123.0, 20.0 ],
+					"patching_rect" : [ 25.0, 202.0, 123.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -536,7 +660,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 318.0, 300.0, 18.0 ],
-									"text" : "\"3.14\""
+									"text" : "\"1\""
 								}
 
 							}
@@ -592,7 +716,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 89.0, 300.0, 18.0 ],
-									"text" : "ejies"
+									"text" : "\"Test Package\""
 								}
 
 							}
@@ -620,7 +744,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 245.0, 300.0, 18.0 ],
-									"text" : "http://www.e--j.com/index.php/what-is-ejies/"
+									"text" : "https://github.com/natcl/max_package_downloader"
 								}
 
 							}
@@ -648,7 +772,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 206.0, 526.0, 18.0 ],
-									"text" : "\"ejies is a collection of abstractions utilities, digital signal processing, JavaScripts and Java tools.\""
+									"text" : "\"This is a Test Package\""
 								}
 
 							}
@@ -685,13 +809,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-4",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 167.0, 260.0, 31.0 ],
-									"text" : "http://download.e--j.com/software/ejies_3.14.zip"
+									"text" : "None"
 								}
 
 							}
@@ -706,7 +829,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 128.0, 300.0, 31.0 ],
-									"text" : "https://raw.github.com/emmanueljourdan/ejies/master/package-info.json"
+									"text" : "https://raw.github.com/natcl/max_package_downloader/master/package-info-test.json"
 								}
 
 							}
@@ -800,7 +923,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 25.0, 175.428574, 61.0, 20.0 ],
+					"patching_rect" : [ 25.0, 175.0, 61.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -825,7 +948,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 123.0, 259.0, 20.0, 20.0 ]
+					"patching_rect" : [ 123.0, 302.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -837,7 +960,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.0, 292.0, 101.0, 20.0 ],
+					"patching_rect" : [ 123.0, 335.0, 101.0, 20.0 ],
 					"text" : "s mpd_download"
 				}
 
@@ -1193,7 +1316,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 25.0, 94.428574, 72.0, 20.0 ],
+					"patching_rect" : [ 25.0, 94.0, 72.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1369,7 +1492,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 411.0, 698.0, 18.0 ],
-									"text" : "unzip /Users/Nat/Documents/Max/Packages/ejies_3.14.zip /Users/Nat/Documents/Max/Packages ejies None"
+									"text" : "unzip /Users/Nat/Documents/Max/Packages/None /Users/Nat/Documents/Max/Packages \"Test Package\" None"
 								}
 
 							}
@@ -1579,7 +1702,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 25.0, 121.428574, 49.0, 20.0 ],
+					"patching_rect" : [ 25.0, 121.0, 49.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1652,7 +1775,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 25.0, 148.428574, 73.0, 20.0 ],
+					"patching_rect" : [ 25.0, 148.0, 73.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2367,7 +2490,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 25.0, 259.0, 20.0, 20.0 ]
+					"patching_rect" : [ 25.0, 302.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -2379,7 +2502,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 292.0, 87.0, 20.0 ],
+					"patching_rect" : [ 25.0, 335.0, 87.0, 20.0 ],
 					"text" : "s mpd_refresh"
 				}
 
@@ -2551,7 +2674,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 25.0, 40.42857, 193.0, 20.0 ],
+					"patching_rect" : [ 25.0, 40.0, 193.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2819,7 +2942,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 25.0, 67.428574, 170.0, 20.0 ],
+					"patching_rect" : [ 25.0, 67.0, 170.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2842,7 +2965,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-16",
-					"items" : [ "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "imp.dmx", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "uci", ",", "zsa.descriptors" ],
+					"items" : [ "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "imp.dmx", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "Test", "Package", ",", "uci", ",", "zsa.descriptors" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
