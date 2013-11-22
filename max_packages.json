@@ -1,4 +1,11 @@
 {
+  "CNMAT MMJ Depot":
+  {
+    "enabled": "true",
+    "link": "https://github.com/CNMAT/CNMAT-MMJ-Depot/archive/master.zip",
+    "relative_path": "None"
+  },
+
   "ejies":
   {
     "enabled": "true",
