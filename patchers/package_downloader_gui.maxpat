@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
-			"architecture" : "x86"
+			"revision" : 6,
+			"architecture" : "x64"
 		}
 ,
 		"openrect" : [ 78.0, 60.0, 362.0, 431.0 ],
@@ -146,7 +146,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 818.0, 140.0, 277.0, 18.0 ],
-					"text" : "ejies"
+					"text" : "\"CNMAT MMJ Depot\""
 				}
 
 			}
@@ -258,7 +258,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 904.0, 492.0, 116.0, 72.0 ],
-					"text" : ";\rmax launchbrowser http://www.e--j.com/index.php/what-is-ejies/"
+					"text" : ";\rmax launchbrowser https://github.com/CNMAT/CNMAT-MMJ-Depot"
 				}
 
 			}
@@ -286,7 +286,7 @@
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"patching_rect" : [ 969.5, 430.0, 204.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 379.0, 300.0, 16.0 ]
+					"presentation_rect" : [ 17.0, 393.0, 300.0, 16.0 ]
 				}
 
 			}
@@ -327,10 +327,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1021.0, 384.0, 240.0, 20.0 ],
+					"patching_rect" : [ 1021.0, 384.0, 260.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 377.0, 303.0, 20.0 ],
-					"text" : "http://www.e--j.com/index.php/what-is-ejies/"
+					"presentation_rect" : [ 14.0, 391.0, 303.0, 20.0 ],
+					"text" : "https://github.com/CNMAT/CNMAT-MMJ-Depot"
 				}
 
 			}
@@ -346,7 +346,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1021.0, 298.0, 101.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 357.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 371.0, 102.0, 20.0 ],
 					"text" : "Website"
 				}
 
@@ -491,8 +491,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
-							"architecture" : "x86"
+							"revision" : 6,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -726,7 +726,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 32.0, 343.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 189.0, 13.0, 13.0 ]
+					"presentation_rect" : [ 14.0, 203.0, 13.0, 13.0 ]
 				}
 
 			}
@@ -769,7 +769,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 849.0, 384.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 324.0, 303.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 338.0, 303.0, 20.0 ],
 					"text" : "None"
 				}
 
@@ -786,7 +786,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 849.0, 298.0, 101.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 304.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 318.0, 102.0, 20.0 ],
 					"text" : "Local version"
 				}
 
@@ -830,8 +830,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 662.0, 384.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 271.0, 303.0, 20.0 ],
-					"text" : "3.14"
+					"presentation_rect" : [ 14.0, 285.0, 303.0, 20.0 ],
+					"text" : "3.1.0"
 				}
 
 			}
@@ -847,7 +847,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 662.0, 298.0, 101.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 251.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 265.0, 102.0, 20.0 ],
 					"text" : "Remote version"
 				}
 
@@ -891,8 +891,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 494.0, 384.0, 202.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 222.0, 303.0, 20.0 ],
-					"text" : "Emmanuel Jourdan"
+					"presentation_rect" : [ 14.0, 236.0, 303.0, 20.0 ],
+					"text" : "CNMAT"
 				}
 
 			}
@@ -908,7 +908,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 494.0, 298.0, 64.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 202.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 216.0, 102.0, 20.0 ],
 					"text" : "Author(s)"
 				}
 
@@ -1033,9 +1033,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 313.0, 384.0, 516.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 14.0, 156.0, 308.0, 33.0 ],
-					"text" : "ejies is a collection of abstractions utilities, digital signal processing, JavaScripts and Java tools."
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 14.0, 156.0, 325.0, 47.0 ],
+					"text" : "CNMAT's expanding library of Max/MSP/Jitter patches and supporting files designed for composers, programmers, performers and music educators."
 				}
 
 			}
@@ -1130,7 +1130,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
-					"items" : [ "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "imp.dmx", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "Test", "Package", ",", "uci", ",", "zsa.descriptors" ],
+					"items" : [ "CNMAT", "MMJ", "Depot", ",", "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "imp.dmx", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "uci", ",", "zsa.descriptors" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
