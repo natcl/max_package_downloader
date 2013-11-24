@@ -14,5 +14,6 @@
 	"link_mac64": "https://github.com/natcl/max_package_downloader/archive/1.zip",
 	"link_win32": "https://github.com/natcl/max_package_downloader/archive/1.zip",
 	"link_win64": "https://github.com/natcl/max_package_downloader/archive/1.zip",
-	"relative_path": "None"
+	"relative_path": "None",
+	"alert_text": "None
 }
