@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
-			"architecture" : "x64"
+			"revision" : 5,
+			"architecture" : "x86"
 		}
 ,
 		"openrect" : [ 78.0, 60.0, 362.0, 431.0 ],
@@ -491,8 +491,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
-							"architecture" : "x64"
+							"revision" : 5,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -1031,10 +1031,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 313.0, 384.0, 516.0, 33.0 ],
+					"patching_rect" : [ 313.0, 384.0, 454.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 14.0, 156.0, 325.0, 47.0 ],
+					"presentation_rect" : [ 14.0, 156.0, 303.0, 47.0 ],
 					"text" : "CNMAT's expanding library of Max/MSP/Jitter patches and supporting files designed for composers, programmers, performers and music educators."
 				}
 
@@ -1130,7 +1130,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
-					"items" : [ "CNMAT", "MMJ", "Depot", ",", "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "imp.dmx", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "uci", ",", "zsa.descriptors" ],
+					"items" : [ "BEAP", ",", "CNMAT", "MMJ", "Depot", ",", "ejies", ",", "HoaLibrary", ",", "IMI", "Max", "patches", ",", "imp.dmx", ",", "jit.gl.hap", ",", "Max", "Package", "Downloader", ",", "Max", "ToolBox", ",", "TapTools", ",", "uci", ",", "zsa.descriptors" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
