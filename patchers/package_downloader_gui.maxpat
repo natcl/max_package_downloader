@@ -32,6 +32,62 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-72",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 379.5, 513.0, 24.0, 20.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-64",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 379.5, 485.0, 130.0, 20.0 ],
+					"text" : "r mpd_package_name"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-65",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 379.5, 539.0, 197.0, 18.0 ],
+					"text" : "presentation_rect 14. 156. 303. 47."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-63",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 379.5, 566.0, 165.0, 20.0 ],
+					"text" : "pattrforward description_field"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-61",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -146,7 +202,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 818.0, 140.0, 277.0, 18.0 ],
-					"text" : "\"CNMAT MMJ Depot\""
+					"text" : "imp.dmx"
 				}
 
 			}
@@ -252,13 +308,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-52",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 904.0, 492.0, 116.0, 72.0 ],
-					"text" : ";\rmax launchbrowser https://github.com/CNMAT/CNMAT-MMJ-Depot"
+					"patching_rect" : [ 904.0, 492.0, 112.0, 85.0 ],
+					"text" : ";\rmax launchbrowser http://www.theimpersonalstereo.com/software/imp-dmx"
 				}
 
 			}
@@ -324,13 +380,14 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-41",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1021.0, 384.0, 260.0, 20.0 ],
+					"patching_rect" : [ 1021.0, 384.0, 198.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 391.0, 303.0, 20.0 ],
-					"text" : "https://github.com/CNMAT/CNMAT-MMJ-Depot"
+					"text" : "http://www.theimpersonalstereo.com/software/imp-dmx"
 				}
 
 			}
@@ -770,7 +827,7 @@
 					"patching_rect" : [ 849.0, 384.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 338.0, 303.0, 20.0 ],
-					"text" : "None"
+					"text" : "0.5"
 				}
 
 			}
@@ -831,7 +888,7 @@
 					"patching_rect" : [ 662.0, 384.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 285.0, 303.0, 20.0 ],
-					"text" : "3.1.0"
+					"text" : "0.5"
 				}
 
 			}
@@ -892,7 +949,7 @@
 					"patching_rect" : [ 494.0, 384.0, 202.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 236.0, 303.0, 20.0 ],
-					"text" : "CNMAT"
+					"text" : "David Butler"
 				}
 
 			}
@@ -1035,7 +1092,8 @@
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 14.0, 156.0, 303.0, 47.0 ],
-					"text" : "CNMAT's expanding library of Max/MSP/Jitter patches and supporting files designed for composers, programmers, performers and music educators."
+					"text" : "imp.dmx is a cross-platform collection of Max/MSP/Jitter abstractions for dealing with DMX data in various forms.",
+					"varname" : "description_field"
 				}
 
 			}
@@ -1628,10 +1686,37 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-72", 0 ]
 				}
 
 			}
