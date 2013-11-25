@@ -43,7 +43,7 @@
 ,
 	"BEAP" : 	{
 		"enabled" : "true",
-		"link" : "https://raw.github.com/natcl/BEAP/patch-2/package-info.json",
+		"link" : "https://raw.github.com/stretta/BEAP/master/package-info.json",
 		"relative_path" : "None"
 	}
 ,
