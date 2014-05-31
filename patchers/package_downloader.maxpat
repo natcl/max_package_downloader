@@ -2652,7 +2652,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 132.0, 308.0, 47.0 ],
-									"text" : "mxj GetUrlContent https://raw.github.com/natcl/max_package_downloader/master/max_packages_master.json"
+									"text" : "mxj GetUrlContent https://raw.githubusercontent.com/natcl/max_package_downloader/master/max_packages_master.json"
 								}
 
 							}
