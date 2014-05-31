@@ -1,31 +1,31 @@
 {
 	"ejies" : 	{
 		"enabled" : "true",
-		"link" : "https://raw.github.com/emmanueljourdan/ejies/master/package-info.json",
+		"link" : "https://raw.githubusercontent.com/emmanueljourdan/ejies/master/package-info.json",
 		"relative_path" : "None"
 	}
 ,
 	"jit.gl.hap" : 	{
 		"enabled" : "true",
-		"link" : "https://raw.github.com/robtherich/jit.gl.hap/master/package/package-info.json",
+		"link" : "https://raw.githubusercontent.com/robtherich/jit.gl.hap/master/package/package-info.json",
 		"relative_path" : "package"
 	}
 ,
 	"Max Package Downloader" : 	{
 		"enabled" : "true",
-		"link" : "https://raw.github.com/natcl/max_package_downloader/master/package-info.json",
+		"link" : "https://raw.githubusercontent.com/natcl/max_package_downloader/master/package-info.json",
 		"relative_path" : "None"
 	}
 ,
 	"Max ToolBox" : 	{
 		"enabled" : "true",
-		"link" : "https://raw.github.com/natcl/maxtoolbox/master/package-info.json",
+		"link" : "https://raw.githubusercontent.com/natcl/maxtoolbox/master/package-info.json",
 		"relative_path" : "None"
 	}
 ,
 	"TapTools" : 	{
 		"enabled" : "true",
-		"link" : "https://raw.github.com/natcl/TapTools/master/TapTools/package-info.json",
+		"link" : "https://raw.githubusercontent.com/natcl/TapTools/master/TapTools/package-info.json",
 		"relative_path" : "None"
 	}
 ,
@@ -37,13 +37,13 @@
 ,
 	"IMI Max patches" : 	{
 		"enabled" : "true",
-		"link" : "https://raw.github.com/imi/IMI-Max-patches-for-Max6/master/IMIpatches/package-info.json",
+		"link" : "https://raw.githubusercontent.com/imi/IMI-Max-patches-for-Max6/master/IMIpatches/package-info.json",
 		"relative_path" : "IMIpatches"
 	}
 ,
 	"BEAP" : 	{
 		"enabled" : "true",
-		"link" : "https://raw.github.com/stretta/BEAP/master/package-info.json",
+		"link" : "https://raw.githubusercontent.com/stretta/BEAP/master/package-info.json",
 		"relative_path" : "None"
 	}
 ,
@@ -55,7 +55,7 @@
 ,
 	"HoaLibrary" : 	{
 		"enabled" : "true",
-		"link" : "https://raw.github.com/CICM/HoaLibrary/master/_distribution/Max/package-info.json",
+		"link" : "https://raw.githubusercontent.com/CICM/HoaLibrary/master/_distribution/Max/package-info.json",
 		"relative_path" : "None"
 	}
 ,
@@ -67,13 +67,13 @@
 ,
 	"CNMAT MMJ Depot" : 	{
 		"enabled" : "true",
-		"link" : "https://raw.github.com/CNMAT/CNMAT-MMJ-Depot/master/package-info.json",
+		"link" : "https://raw.githubusercontent.com/CNMAT/CNMAT-MMJ-Depot/master/package-info.json",
 		"relative_path" : "None"
 	}
 ,
 	"Test Package" : 	{
 		"enabled" : "false",
-		"link" : "https://raw.github.com/natcl/max_test_package/master/package-info.json",
+		"link" : "https://raw.githubusercontent.com/natcl/max_test_package/master/package-info.json",
 		"relative_path" : "None"
 	}
 
