@@ -55,11 +55,11 @@
     "relative_path": "None"
   },
 
-  "IMI Max patches":
+  "Max for the Visual Arts":
   {
     "enabled": "true",
-    "link": "https://github.com/imi/IMI-Max-patches-for-Max6/archive/master.zip",
-    "relative_path": "IMIpatches"
+    "link": "https://github.com/imi/Max-for-the-Visual-Arts/archive/master.zip",
+    "relative_path": "Max4VisualArts"
   },
   
   "BEAP":
