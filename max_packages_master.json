@@ -71,6 +71,13 @@
 		"relative_path" : "None"
 	}
 ,
+	"cs.2click":
+	{
+		"enabled": "true",
+		"link": "https://github.com/delucis/cs.2click/archive/master.zip",
+		"relative_path": "None"
+	}
+,
 	"Test Package" : 	{
 		"enabled" : "false",
 		"link" : "https://raw.githubusercontent.com/natcl/max_test_package/master/package-info.json",
