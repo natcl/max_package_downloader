@@ -74,5 +74,12 @@
     "enabled": "true",
     "link": "https://github.com/CICM/HoaLibrary/releases/download/1.3.1/HoaLibrary_Max_1.3.1.zip",
     "relative_path": "None"
-  } 
+  },
+
+  "cs.2click":
+  {
+    "enabled": "true",
+    "link": "https://github.com/delucis/cs.2click/archive/master.zip",
+    "relative_path": "None"
+  }
 }
