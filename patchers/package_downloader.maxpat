@@ -1855,13 +1855,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-9",
+									"id" : "obj-7",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 240.0, 135.0, 63.0, 20.0 ],
-									"text" : "sprintf %x"
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "bang" ],
+									"patching_rect" : [ 15.0, 45.0, 199.0, 20.0 ],
+									"text" : "t b b"
 								}
 
 							}
@@ -1869,13 +1869,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-8",
-									"maxclass" : "message",
-									"numinlets" : 2,
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 240.0, 165.0, 50.0, 18.0 ],
-									"text" : "619"
+									"patching_rect" : [ 195.0, 150.0, 63.0, 20.0 ],
+									"text" : "sprintf %x"
 								}
 
 							}
@@ -1888,7 +1888,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.0, 105.0, 116.0, 20.0 ],
+									"patching_rect" : [ 195.0, 120.0, 116.0, 20.0 ],
 									"text" : "r mpd_max_version"
 								}
 
@@ -1903,7 +1903,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.0, 60.0, 193.0, 31.0 ],
+									"patching_rect" : [ 195.0, 75.0, 193.0, 31.0 ],
 									"text" : ";\rmax getversion mpd_max_version"
 								}
 
@@ -1917,7 +1917,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 165.0, 30.0, 60.0, 20.0 ],
+									"patching_rect" : [ 15.0, 15.0, 60.0, 20.0 ],
 									"text" : "loadbang"
 								}
 
@@ -1931,22 +1931,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 222.0, 264.5, 266.0, 18.0 ],
-									"text" : "/Users/Nat/Documents/Max/Packages"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-10",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 15.0, 33.0, 60.0, 20.0 ],
-									"text" : "loadbang"
+									"patching_rect" : [ 150.0, 301.0, 266.0, 18.0 ],
+									"text" : "/Users/chris/Documents/Max/Packages"
 								}
 
 							}
@@ -1960,7 +1946,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 64.0, 137.0, 31.0 ],
+									"patching_rect" : [ 15.0, 75.0, 137.0, 31.0 ],
 									"text" : ";\rmax getsystem mpd_os"
 								}
 
@@ -1974,7 +1960,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 177.0, 219.0, 152.0, 20.0 ],
+									"patching_rect" : [ 197.0, 255.0, 152.0, 20.0 ],
 									"text" : "conformpath max absolute"
 								}
 
@@ -1988,7 +1974,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
-									"patching_rect" : [ 15.0, 135.0, 133.0, 20.0 ],
+									"patching_rect" : [ 15.0, 150.0, 133.0, 20.0 ],
 									"text" : "sel macintosh windows"
 								}
 
@@ -2002,7 +1988,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 107.0, 61.0, 20.0 ],
+									"patching_rect" : [ 15.0, 120.0, 61.0, 20.0 ],
 									"text" : "r mpd_os"
 								}
 
@@ -2016,7 +2002,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 197.0, 189.0, 100.0, 18.0 ],
+									"patching_rect" : [ 197.0, 225.0, 100.0, 18.0 ],
 									"text" : "~/Max/Packages"
 								}
 
@@ -2029,7 +2015,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 256.0, 125.0, 20.0 ],
+									"patching_rect" : [ 15.0, 301.0, 125.0, 20.0 ],
 									"text" : "s mpd_package_path"
 								}
 
@@ -2043,7 +2029,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 189.0, 164.0, 18.0 ],
+									"patching_rect" : [ 15.0, 225.0, 164.0, 18.0 ],
 									"text" : "~/Documents/Max/Packages"
 								}
 
@@ -2057,7 +2043,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 15.0, 219.0, 130.0, 20.0 ],
+									"patching_rect" : [ 15.0, 255.0, 130.0, 20.0 ],
 									"text" : "conformpath max boot"
 								}
 
@@ -2083,16 +2069,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
+									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
@@ -2173,10 +2150,19 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-8", 1 ],
+									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-9", 0 ]
+									"source" : [ "obj-7", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
