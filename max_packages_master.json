@@ -74,7 +74,7 @@
 	"cs.2click":
 	{
 		"enabled": "true",
-		"link": "https://github.com/delucis/cs.2click/archive/master.zip",
+		"link": "https://raw.githubusercontent.com/delucis/cs.2click/master/package-info.json",
 		"relative_path": "None"
 	}
 ,
