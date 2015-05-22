@@ -2099,7 +2099,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p set_package_patch"
+					"text" : "p set_package_path"
 				}
 
 			}
