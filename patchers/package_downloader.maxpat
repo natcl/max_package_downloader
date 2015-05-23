@@ -1860,9 +1860,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 240.0, 174.0, 18.0 ],
-									"presentation_rect" : [ 16.0, 243.0, 0.0, 0.0 ],
-									"text" : "~/Documents/Max 7/Packages"
+									"patching_rect" : [ 15.0, 240.0, 182.0, 18.0 ],
+									"text" : "\"~/Documents/Max 7/Packages\""
 								}
 
 							}
@@ -2161,7 +2160,7 @@
 									"destination" : [ "obj-36", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 41.5, 234.0, 196.0, 234.0, 196.0, 262.0, 39.5, 262.0 ],
+									"midpoints" : [ 41.5, 234.0, 201.0, 234.0, 201.0, 263.0, 39.5, 263.0 ],
 									"source" : [ "obj-13", 1 ]
 								}
 
