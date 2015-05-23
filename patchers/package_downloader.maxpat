@@ -1476,8 +1476,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 381.5, 255.0, 83.0, 20.0 ],
-									"text" : "sprintf %s/%s"
+									"patching_rect" : [ 381.5, 255.0, 125.0, 20.0 ],
+									"text" : "sprintf symout %s/%s"
 								}
 
 							}
