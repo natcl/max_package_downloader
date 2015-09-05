@@ -78,6 +78,13 @@
 		"relative_path": "None"
 	}
 ,
+	"264 Tools":
+	{
+		"enabled": "true",
+		"link": "https://raw.githubusercontent.com/mus264/264-tools/master/package-info.json",
+		"relative_path": "None"
+	}
+,
 	"Test Package" : 	{
 		"enabled" : "false",
 		"link" : "https://raw.githubusercontent.com/natcl/max_test_package/master/package-info.json",
