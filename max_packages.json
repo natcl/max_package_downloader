@@ -81,5 +81,12 @@
     "enabled": "true",
     "link": "https://github.com/delucis/cs.2click/archive/master.zip",
     "relative_path": "None"
+  },
+
+  "264 Tools":
+  {
+    "enabled": "true",
+    "link": "https://github.com/mus264/264-tools/archive/master.zip",
+    "relative_path": "None"
   }
 }
